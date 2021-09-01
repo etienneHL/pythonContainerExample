@@ -8,5 +8,5 @@ def main():
     print(a[0])
 
     # Example of access to the host file system
-    f = open("app/fileToRead.txt", "r")
+    f = open("app/fileToRead", "r")
     print(f.read())
