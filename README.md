@@ -1,5 +1,7 @@
-* Each command need to be executed from the project main directory.
-* A PowerShell terminal has to be used on Windows.
+### PREREQUISITES
+* [Docker](https://docs.docker.com/get-docker/) need to be installed.
+* Each command need to be executed from the repository main directory.
+* On Windows, A PowerShell terminal has to be used.
 
 ### BUILD
 docker build -q -t my-python-app .
